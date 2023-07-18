@@ -1,0 +1,6 @@
+Realizzare un sistema di chat multiClient - Server con le seguenti caratteristiche:
+1) Protocollo TCP
+2) Gestione dell'autenticazione con solamente username (scelto autonomamente dall'utente)
+3) Login e Logout dell'utente (decidere i dettagli)
+I messaggi spediti da un utente vengono inoltrati dal server a tutti gli utenti connessi in quel momento, anteponendo al messaggio il nome del mittente.
+Il messaggio non viene restituito a chi lo manda. Inviando un apposito comando ("who") il server restituisce l'elenco di tutti gli utenti connessi
